@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body style="background-image: url(https://wallpaperaccess.com/full/1900857.jpg);">
+    <div id="st">
+        <div id="formid">
+            <h1 class="name23">Registration Page</h1>
+            <form id="form" onsubmit="return Form();">
+                <label for="fname" class="name">First Name</label>
+                <br />
+                <input type="text" id="fname" class="fclass" placeholder="Enter your first name"> 
+                <b><span class="formerror" id="fnamee"></span></b>
+                <br />
+                <label for="sname" class="name">Last Name</label>
+                <br />
+                <input type="text" id="sname" class="fclass" placeholder="Enter your second name"> 
+                <b><span class="formerror" id="snamee"></span></b>
+                <br />
+                <label for="mail" class="name">Email</label>
+                <br />
+                <input type="email" id="mail" class="fclass" placeholder="Enter your email id"> 
+ 
+                <br />
+                <label for="password" class="name">Password</label>
+                <br />
+                <input type="password" id="password" class="fclass" placeholder="Enter Password"> 
+                <b><span class="formerror" id="passworde"></span></b>
+                <br />
+                <label for="passwordc" class="name">Confirm Password</label>
+                <br />
+                <input type="password" id="passwordc" class="fclass" placeholder="ReEnter Password"> 
+                <b><span class="formerror" id="passwordce"></span></b>
+                <br />
+                <p class="name"><button type="submit" id="buttonid">Submit</button></p>
+            </form>
+        </div>
+    </div>
+    <script src="sign.js"></script>
+</body>
+</html>

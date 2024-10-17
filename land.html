@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="land.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM31on1gyExkL0=" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="srs">
+        <main>
+            <img src="https://wallpapers.com/images/hd/blogging-backdrop-8ifwoxtwf7mdg268.jpg" alt="img7" class="slide">
+            <img src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Desktop-hd-wallpaper-nature-1080p.jpg" alt="img1" class="slide">
+            <img src="https://i.ytimg.com/vi/F__cVlOwb4M/maxresdefault.jpg" alt="img2" class="slide">
+            <img src="https://images.hdqwalls.com/download/annapurna-massif-mountain-range-nepal-st-3840x2160.jpg" alt="img3" class="slide">
+            <img src="https://businesscoachingofpa.com/wp-content/uploads/2016/05/Leadership-27939370_ml.jpg" alt="img4" class="slide">
+            <img src="https://wallpaperaccess.com/full/407993.jpg" alt="img5" class="slide">
+            <img src="https://wallpaperaccess.com/full/1738000.jpg" alt="img6" class="slide">
+            <img src="img7.jpg" alt="img8" class="slide">
+            <img src="img8.jpg" alt="img9" class="slide"> 
+        </main>
+        <div class="nav">
+            <button onclick="goPrev()">
+                Prev
+            </button>
+            <button onclick="goNext()">
+                Next
+            </button>
+        </div>
+    </div>
+    <div class="srs" id="srs">
+        <h1 class="heading">How was your experience?</h1>
+        <div class="stars">
+            <input type="radio" id="1s"><label for="1s"></label>
+            <input type="radio" id="2s"><label for="2s"></label>
+            <input type="radio" id="3s"><label for="3s"></label>
+            <input type="radio" id="4s"><label for="4s"></label>
+            <input type="radio" id="5s"><label for="5s"></label>
+        </div>
+        <textarea id="cmt" cols="50" rows="4" placeholder="Enter your Experience..."></textarea>
+        <button id="btn">Submit</button>
+    </div>
+    <script src="land.js"></script>
+</body>
+</html>

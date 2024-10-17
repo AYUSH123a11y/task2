@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 40%;
+    height: 500px;
+    box-shadow: 0px 0px 3px grey;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+   
+}
+#btn{
+    margin-top: .6rem;
+    padding: .2rem;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+#btn:active{
+    background-color: aquamarine;
+}
+
+body{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border:  .3rem solid;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+    
+}
+
+.nav{
+    text-align: center;
+    margin-top: 15px;
+}
+.nav button{
+    font-size: 25px;
+    padding:5px;  
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.nav button:hover{
+    
+    color: aqua;
+    font-size: 1.2rem;
+    background-color: rgb(121, 20, 193);
+    box-shadow:  .1rem .1rem .8rem rgb(4, 255, 142);
+}
+
+
+.srs{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:  .2rem .2rem 0.rem rgb(219, 41, 160);
+}
+#srs{
+    height: 30rem;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.stars{
+    direction: rtl;
+}
+.stars label{
+    display: inline-block;
+    width: 3.5rem;
+    position: relative;
+    cursor: pointer;
+}
+.stars input{
+    display: none;
+}
+.stars label::before{
+    content: "\2605";
+    color: white;
+    font-size: 4.5rem;
+
+}
+.stars input:checked + label::before {
+    color: yellow;
+}
+.stars label:hover::before,
+.stars label:hover ~ label::before {
+    color: yellow;
+    opacity: 1;
+    text-shadow: .2rem .2rem rgb(8, 168, 0);
+}
+
+
+#cmt:hover{
+    transform: scale(1.03);
+    box-shadow: .2rem .2rem 1rem #231557;
+    
+}
